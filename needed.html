@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>one</title>
+    <style>
+        /* Style for body */
+        body {
+            background-color: red;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px; /* Adjust as needed */
+        }
+
+        /* Style for the container */
+        .container {
+            border: 2px solid black;
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto; /* Center align horizontally */
+            background-color: white;
+        }
+
+        /* Style for text */
+        p {
+            margin: 10px 0;
+        }
+    </style>
+    <script type="text/javascript">
+        var l, w, area, tiles;
+        l = parseInt(prompt("Enter the length"));
+        w = parseInt(prompt("Enter the Width"));
+        area = l * w;
+        tiles = area / 0.36;
+        document.write("<div class='container'>");
+        document.write("<p>Length: " + l + "</p>");
+        document.write("<p>Width: " + w + "</p>");
+        document.write("<p>Area: " + area.toFixed(2) + "</p>");
+        document.write("<p>Number of tiles: " + tiles.toFixed(2) + "</p>");
+        document.write("</div>");
+    </script>
+</head>
+<body>
+</body>
+</html>
